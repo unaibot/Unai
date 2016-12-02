@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+}
+
+.videocon {
+  
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.video {
+ position: fixed;
+ top: 50%; 
+ left: 50%;
+ z-index: -50;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ transform: translate(-50%, -50%);
+}
+ 
+#web_copy:hover {
+
+   background-color: pink;
+
+
+}
+
+
+
+
+
+
