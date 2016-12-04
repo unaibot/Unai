@@ -2,16 +2,6 @@ body {
 	margin: 0;
 }
 
-.videocon {
-  
-  z-index: -100;
-  transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
-  transition: 1s opacity;
-}
 
 .video {
  position: fixed;
@@ -24,12 +14,21 @@ body {
  height: auto;
  transform: translate(-50%, -50%);
 }
+
+.cuadrado {
+  background-color: pink;
+  position: ;
+}
  
-#web_copy:hover {
+#Coming_copy {
 
-   background-color: pink;
+   color: rgb(255, 51, 153);
+}
 
-
+#Coming_copy:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
 }
 
 
